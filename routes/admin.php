@@ -62,5 +62,8 @@ Route::prefix('admin')->name('admin.')->group(function(){
 
         //İletişim Ayarları
         Route::view('/iletisim','back.pages.iletisim')->name('iletisim');
+        Route::view('/sube-ekle','back.pages.sube')->name('sube');
+
+
     });
 });
